@@ -1,0 +1,71 @@
+body{
+
+    font-family: Arial;
+
+    background:#eef7ee;
+
+    text-align:center;
+
+    margin:0;
+
+}
+
+.container{
+
+    width:80%;
+
+    margin:auto;
+
+    padding:20px;
+
+}
+
+h1{
+
+    color:green;
+
+}
+
+video{
+
+    width:100%;
+
+    max-width:700px;
+
+}
+
+button{
+
+    margin-top:20px;
+
+    padding:12px;
+
+    font-size:18px;
+
+    background:green;
+
+    color:white;
+
+    border:none;
+
+    cursor:pointer;
+
+}
+
+button:hover{
+
+    background:darkgreen;
+
+}
+
+/* Responsive Design */
+
+@media(max-width:600px){
+
+    h1{
+
+        font-size:30px;
+
+    }
+
+}
